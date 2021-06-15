@@ -1,11 +1,10 @@
-import './App.css';
+import classes from './App.module.css';
+import Timer from './components/Timer';
 
 function App() {
 	return (
-		<div className="App">
-			<header className="App-header">
-				<h1>NO</h1>
-			</header>
+		<div className={classes.container}>
+			<Timer />
 		</div>
 	);
 }

@@ -1,0 +1,17 @@
+.container {
+	/* display: inline-block; */
+	/* justify-content: center; */
+	/* align-content: center; */
+	/* display: inline-block; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* position: relative; */
+	text-align: center;
+	margin: auto;
+	max-width: 900px;
+	min-width: 0vmin;
+	min-height: 100vh;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
