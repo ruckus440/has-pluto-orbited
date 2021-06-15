@@ -1,0 +1,35 @@
+.label {
+	line-height: 2em;
+	font-size: 10rem;
+	padding: 0;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.gridContainer {
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+	width: 200px;
+	margin: 5px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-auto-rows: repeat(6, 1fr);
+}
+
+.timeNumbers {
+	text-align: right;
+}
+
+.timeUnits {
+	padding: 0 0.5em;
+	text-align: left;
+}
+
+.text {
+	width: fit-content;
+	margin: 0 auto;
+	padding: 5px;
+	font-stretch: ultra-expanded;
+	font-size: 0.75em;
+	background: rgba(0, 0, 0, 0.75);
+	border-radius: 5px;
+}
